@@ -807,7 +807,7 @@ const getTokens2 = async (e)=> {
 					let div = document.createElement('p');
 					div.className = 'NFTcard';
         			div.innerHTML = '<img class="card-image" src="https://gateway.pinata.cloud/ipfs/QmUeYeDoD6hj21gQczAXY4YeTH4LPfbhhfFzMkRtBxZUCE/'
-					+ tokensArray[i] + '.png" onerror="this.src=' + "'images/load.png'" + '"> <a class="card-text"> Dogechain Ape #' + tokensArray[i]
+					+ tokensArray[i] + '.gif" onerror="this.src=' + "'images/load.gif'" + '"> <a class="card-text"> Dogechain Ape #' + tokensArray[i]
 					+ ' </a> <br> <button class="card-stk-btn" onclick="stakeOne(tokenId = [this.id])" id="'
 					+ tokensArray[i] + '"> STAKE </button>';
 
