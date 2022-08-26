@@ -1,4 +1,4 @@
-const CONTRACT = "0xB16fF6cbB990F221eBDa87699F0F4639B10c5274";
+const CONTRACT = "0xf63Dd69C7fF5A105018562f82C2A09653A45F341";
 
 const ABI = [
 	{
@@ -806,7 +806,7 @@ const getTokens2 = async (e)=> {
 				for(var i = 0 ; i < userBalance ; i++) {
 					let div = document.createElement('p');
 					div.className = 'NFTcard';
-        			div.innerHTML = '<img class="card-image" src="https://gateway.pinata.cloud/ipfs/QmUeYeDoD6hj21gQczAXY4YeTH4LPfbhhfFzMkRtBxZUCE/'
+        			div.innerHTML = '<img class="card-image" src="https://gateway.pinata.cloud/ipfs/QmYJP9H2gaRqpBfQNwwsTC1dhn988whU2yqwRhtm5fZV5p/'
 					+ tokensArray[i] + '.png" onerror="this.src=' + "'images/load.png'" + '"> <a class="card-text"> Dogechain Ape #' + tokensArray[i]
 					+ ' </a> <br> <button class="card-stk-btn" onclick="stakeOne(tokenId = [this.id])" id="'
 					+ tokensArray[i] + '"> STAKE </button>';
